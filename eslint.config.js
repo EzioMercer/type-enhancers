@@ -4,7 +4,7 @@ import tsparser from '@typescript-eslint/parser';
 
 export default defineConfig([
     {
-        files: ['**/*.*'],
+        files: ['*.js', 'src/**/*.ts'],
         languageOptions: {
             parser: tsparser,
         },
@@ -14,8 +14,9 @@ export default defineConfig([
         rules: {
             '@stylistic/indent': ['error', 4],
             '@stylistic/eol-last': ['error', 'always'],
-            '@stylistic/linebreak-style': ["error", "unix"],
-            '@stylistic/semi': ["error", "always"]
+            '@stylistic/linebreak-style': ['error', 'unix'],
+            '@stylistic/semi': ['error', 'always'],
+            '@stylistic/quotes': ['error', 'single', { 'avoidEscape': true }],
         }
     }
 ]);
