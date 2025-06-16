@@ -2,7 +2,7 @@
   "name": "type-enhancers",
   "version": "0.0.1",
   "description": "Enhanced type system",
-  "main": "overloads/String/Split.ts",
+  "main": "overloads/String/Split.d.ts",
   "keywords": [
     "typescript",
     "types",
