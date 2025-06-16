@@ -7,7 +7,7 @@
 To use utils, you have to import them in every file with named import from `utils` folder:
 
 ```typescript
-import type { Nullable } from "type-enhancers/utils/Nullable";
+import type { Nullable } from "type-enhancers/utils";
 ```
 
 ## Overloads
@@ -32,3 +32,10 @@ import "type-enhancers/overlodas/String";
 ```typescript
 import "type-enhancers/overlodas/String/Split";
 ```
+
+## Available utils
+
++ [Nilable](./utils/Nilable.d.ts)
++ [Nullable](./utils/Nullable.d.ts)
++ [Undefinable](./utils/Undefinable.d.ts)
++ [SplitByString](./utils/SplitByString.d.ts)
