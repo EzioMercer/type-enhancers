@@ -1,35 +1,37 @@
 {
-  "name": "type-enhancers",
-  "version": "0.0.1",
-  "description": "Enhanced type system",
-  "keywords": [
-    "typescript",
-    "types",
-    "type",
-    "enhanced",
-    "enhancers",
-    "utilities",
-    "utility"
-  ],
-  "homepage": "https://github.com/EzioMercer/type-enhancers#readme",
-  "bugs": {
-    "url": "https://github.com/EzioMercer/type-enhancers/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EzioMercer/type-enhancers.git"
-  },
-  "license": "MIT",
-  "author": "EzioMercer",
-  "type": "module",
-  "scripts": {
-    "lint": "eslint --fix"
-  },
-  "devDependencies": {
-    "@stylistic/eslint-plugin": "^4.4.1",
-    "@typescript-eslint/parser": "^8.34.0",
-    "eslint": "^9.28.0",
-    "typescript": "^5.8.3",
-    "typescript-eslint": "^8.34.0"
-  }
+    "name": "type-enhancers",
+    "version": "0.0.2",
+    "description": "Enhanced type system",
+    "keywords": [
+        "typescript",
+        "types",
+        "type",
+        "enhanced",
+        "enhancers",
+        "utilities",
+        "utility"
+    ],
+    "homepage": "https://github.com/EzioMercer/type-enhancers#readme",
+    "bugs": {
+        "url": "https://github.com/EzioMercer/type-enhancers/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EzioMercer/type-enhancers.git"
+    },
+    "license": "MIT",
+    "author": "EzioMercer",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint --fix",
+        "test": "vitest --typecheck"
+    },
+    "devDependencies": {
+        "@stylistic/eslint-plugin": "^4.4.1",
+        "@typescript-eslint/parser": "^8.34.0",
+        "eslint": "^9.28.0",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.34.0",
+        "vitest": "^3.2.3"
+    }
 }
