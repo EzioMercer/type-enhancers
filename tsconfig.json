@@ -8,16 +8,14 @@
         "moduleDetection": "force",
         "isolatedModules": true,
         "verbatimModuleSyntax": true,
+        "declaration": true,
+        "sourceMap": true,
+        "declarationMap": true,
         "strict": true,
         "noUncheckedIndexedAccess": true,
         "noImplicitOverride": true,
-        "paths": {
-            "src/*": [
-                "src/*"
-            ]
-        },
         "lib": [
             "esnext"
         ]
-    }
+    },
 }
