@@ -18,19 +18,19 @@ You can control the scope of overloads just from your import:
 ### Import all overloads:
 
 ```typescript
-import "type-enhancers/overlodas";
+import "type-enhancers/overloads";
 ```
 
 ### Import all overloads for String:
 
 ```typescript
-import "type-enhancers/overlodas/String";
+import "type-enhancers/overloads/String";
 ```
 
 ### Import all overloads for String split method:
 
 ```typescript
-import "type-enhancers/overlodas/String/Split";
+import "type-enhancers/overloads/String/Split";
 ```
 
 ## Available utils
