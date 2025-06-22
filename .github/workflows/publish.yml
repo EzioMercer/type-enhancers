@@ -2,11 +2,8 @@ name: Publish
 
 on:
   push:
-    branches:
-      - master
     tags:
       - v*.*.*
-      - '!master'
 
 jobs:
   publish-release:
