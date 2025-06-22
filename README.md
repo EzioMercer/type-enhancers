@@ -1,5 +1,11 @@
 # type-enhancers
 
+# Installing
+
+```shell
+npm i -d type-enhancers
+```
+
 # How to use
 
 ## Utils
@@ -33,9 +39,18 @@ import "type-enhancers/overloads/String";
 import "type-enhancers/overloads/String/Split";
 ```
 
+## Available overloads
+
++ Number
+    + [toString](./overloads/Number/ToString.d.ts)
+
+
++ String
+    + [split](./overloads/String/Split.d.ts)
+
 ## Available utils
 
 + [Nilable](./utils/Nilable.d.ts)
 + [Nullable](./utils/Nullable.d.ts)
-+ [Undefinable](./utils/Undefinable.d.ts)
 + [SplitByString](./utils/SplitByString.d.ts)
++ [Undefinable](./utils/Undefinable.d.ts)
