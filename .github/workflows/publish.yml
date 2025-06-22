@@ -6,6 +6,7 @@ on:
       - master
     tags:
       - v*.*.*
+      - '!master'
 
 jobs:
   publish-release:
