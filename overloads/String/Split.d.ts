@@ -5,9 +5,9 @@ declare global {
         split<Source extends string, Separator extends string>(
             this: Source,
             separator: Separator,
-            limit?: undefined
+            limit?: undefined,
         ): SplitByString<Source, Separator>;
 
-        split(separator: string | RegExp, limit: 0): []
+        split(separator: string | RegExp, limit: 0): [];
     }
 }

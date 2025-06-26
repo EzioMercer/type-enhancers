@@ -12,8 +12,17 @@ npm i -d type-enhancers
 
 To use utils, you have to import them in every file with named import from `utils` folder:
 
+### Import from `utils` folder
+
 ```typescript
-import type { Nullable } from "type-enhancers/utils";
+import type { Nilable, Nullable } from "type-enhancers/utils";
+```
+
+### Import directly from `utils` files
+
+```typescript
+import type { Nilable } from "type-enhancers/utils/Nilable";
+import type { Nullable } from "type-enhancers/utils/Nullable";
 ```
 
 ## Overloads
@@ -33,7 +42,7 @@ import "type-enhancers/overloads";
 import "type-enhancers/overloads/String";
 ```
 
-### Import all overloads for String split method:
+### Import all overloads for the String split method:
 
 ```typescript
 import "type-enhancers/overloads/String/Split";
@@ -46,11 +55,18 @@ import "type-enhancers/overloads/String/Split";
 
 
 + String
-    + [split](./overloads/String/Split.d.ts)
+    + [split](./overloads/String/Split.d.ts) (Returns tuple instead of an array)
+    + [trim](./overloads/String/Trim.d.ts)
+    + [trimEnd](./overloads/String/TrimEnd.d.ts)
+    + [trimStart](./overloads/String/TrimStart.d.ts)
 
 ## Available utils
 
 + [Nilable](./utils/Nilable.d.ts)
 + [Nullable](./utils/Nullable.d.ts)
 + [SplitByString](./utils/SplitByString.d.ts)
++ [Trim](./utils/Trim.d.ts)
++ [TrimEnd](./utils/TrimEnd.d.ts)
++ [TrimStart](./utils/TrimStart.d.ts)
 + [Undefinable](./utils/Undefinable.d.ts)
++ [WhiteSpace](./utils/WhiteSpace.d.ts)
