@@ -1,2 +1,2 @@
-import './String';
 import './Number';
+import './String';

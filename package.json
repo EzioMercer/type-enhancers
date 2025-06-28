@@ -24,7 +24,8 @@
     "type": "module",
     "scripts": {
         "lint": "eslint --fix",
-        "test": "vitest --typecheck"
+        "test": "vitest --typecheck",
+        "generateIndexes": "node generateUtilsIndex.ts && node generateOverloadsIndex.ts"
     },
     "devDependencies": {
         "@stylistic/eslint-plugin": "^4.4.1",
