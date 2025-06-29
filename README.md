@@ -53,6 +53,7 @@ import "type-enhancers/overloads/String/Split";
 + Number
     + Constructor
         + [Number()](./overloads/Number/Constructor/Cast.d.ts)
+        + [new Number()](./overloads/Number/Constructor/Instance.d.ts)
     + [toString](./overloads/Number/ToString.d.ts)
 
 + String
@@ -66,6 +67,8 @@ import "type-enhancers/overloads/String/Split";
 ## Available utils
 
 + [BigIntToNumber](./utils/BigIntToNumber.d.ts)
++ [If](./utils/If.d.ts)
++ [IsStringLikeNumber](./utils/IsStringLikeNumber.d.ts)
 + [Nilable](./utils/Nilable.d.ts)
 + [Nullable](./utils/Nullable.d.ts)
 + [SplitByString](./utils/SplitByString.d.ts)

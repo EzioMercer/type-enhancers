@@ -39,3 +39,8 @@ expectTypeOf(TEST_12).toEqualTypeOf<0.001>();
 
 const TEST_13 = Number('NotANumber');
 expectTypeOf(TEST_13).toEqualTypeOf<number>();
+
+const x = new Number('12');
+
+const a = x.valueOf();
+const b = x.toString();

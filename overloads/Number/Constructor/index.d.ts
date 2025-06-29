@@ -1,1 +1,2 @@
 import './Cast';
+import './Instance';
