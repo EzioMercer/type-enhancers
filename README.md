@@ -51,8 +51,9 @@ import "type-enhancers/overloads/String/Split";
 ## Available overloads
 
 + Number
+    + Constructor
+        + [Number()](./overloads/Number/Constructor/Cast.d.ts)
     + [toString](./overloads/Number/ToString.d.ts)
-
 
 + String
     + [split](./overloads/String/Split.d.ts) (Returns tuple instead of an array)
@@ -62,9 +63,11 @@ import "type-enhancers/overloads/String/Split";
 
 ## Available utils
 
++ [BigIntToNumber](./utils/BigIntToNumber.d.ts)
 + [Nilable](./utils/Nilable.d.ts)
 + [Nullable](./utils/Nullable.d.ts)
 + [SplitByString](./utils/SplitByString.d.ts)
++ [StringToNumber](./utils/StringToNumber.d.ts)
 + [Trim](./utils/Trim.d.ts)
 + [TrimEnd](./utils/TrimEnd.d.ts)
 + [TrimStart](./utils/TrimStart.d.ts)

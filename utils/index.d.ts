@@ -1,6 +1,8 @@
+export type { BigIntToNumber } from './BigIntToNumber';
 export type { Nilable } from './Nilable';
 export type { Nullable } from './Nullable';
 export type { SplitByString } from './SplitByString';
+export type { StringToNumber } from './StringToNumber';
 export type { Trim } from './Trim';
 export type { TrimEnd } from './TrimEnd';
 export type { TrimStart } from './TrimStart';
