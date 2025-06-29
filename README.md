@@ -67,7 +67,8 @@ import "type-enhancers/overloads/String/Split";
 ## Available utils
 
 + [BigIntToNumber](./utils/BigIntToNumber.d.ts)
-+ [If](./utils/If.d.ts)
++ [If](utils/If.d.ts)
++ [IfElse](utils/IfElse.d.ts)
 + [IsStringLikeNumber](./utils/IsStringLikeNumber.d.ts)
 + [Nilable](./utils/Nilable.d.ts)
 + [Nullable](./utils/Nullable.d.ts)

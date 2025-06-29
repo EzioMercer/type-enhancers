@@ -1,4 +1,4 @@
-import type { If } from '../../../utils/If';
+import type { IfElse } from '../../../utils/IfElse';
 import type { StringToNumber } from '../../../utils/StringToNumber';
 import type { IsStringLikeNumber } from '../../../utils/IsStringLikeNumber';
 import type { BigIntToNumber } from '../../../utils/BigIntToNumber';
@@ -16,7 +16,7 @@ declare global {
     interface NumberConstructor {
         new<Value extends string>(value: Value): Omit<Number, OverrideMethods> & {
             valueOf(): StringToNumber<Value>;
-            toString(): If<IsStringLikeNumber<Value>, `${StringToNumber<Value>}`, 'NaN'>;
+            toString(): IfElse<IsStringLikeNumber<Value>, `${StringToNumber<Value>}`, 'NaN'>;
         };
     }
 

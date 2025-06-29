@@ -1,5 +1,6 @@
 export type { BigIntToNumber } from './BigIntToNumber';
 export type { If } from './If';
+export type { IfElse } from './IfElse';
 export type { IsStringLikeNumber } from './IsStringLikeNumber';
 export type { Nilable } from './Nilable';
 export type { Nullable } from './Nullable';

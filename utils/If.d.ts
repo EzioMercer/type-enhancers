@@ -1,1 +1,1 @@
-export type If<Condition extends boolean, IfTrue, IfFalse> = Condition extends true ? IfTrue : IfFalse;
+export type If<Condition extends boolean, IfTrue> = Condition extends true ? IfTrue : never;
