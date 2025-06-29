@@ -21,13 +21,13 @@ const generateIndexForOverloadFolder = async (folderPath: string) => {
 
     await fs.writeFile(indexPath, '');
 
-    folders.forEach(async (folder) => {
+    for (const folder of folders) {
         await fs.appendFile(indexPath, `import './${folder.name}';\n`);
-    });
+    }
 
-    files.forEach(async (file) => {
+    for (const file of files) {
         await fs.appendFile(indexPath, `import './${file.name.split('.d.ts')[0]}';\n`);
-    });
+    }
 
     folders.forEach((folder) => generateIndexForOverloadFolder(`${folderPath}/${folder.name}`));
 };

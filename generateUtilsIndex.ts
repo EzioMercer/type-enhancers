@@ -7,10 +7,10 @@ const filesNames = await fs.readdir(utilsDir);
 
 await fs.writeFile(utilsIndexPath, '');
 
-filesNames.forEach(async (fileName) => {
-    if (fileName === 'index.d.ts') return;
+for (const fileName of filesNames) {
+    if (fileName === 'index.d.ts') continue;
 
     const utilName = fileName.split('.d.ts')[0]!;
 
     await fs.appendFile(utilsIndexPath, `export type { ${utilName} } from './${utilName}';\n`);
-});
+}
