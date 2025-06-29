@@ -57,6 +57,8 @@ import "type-enhancers/overloads/String/Split";
 
 + String
     + [split](./overloads/String/Split.d.ts) (Returns tuple instead of an array)
+    + [toLowerCase](./overloads/String/ToLowerCase.d.ts)
+    + [toUpperCase](./overloads/String/ToUpperCase.d.ts)
     + [trim](./overloads/String/Trim.d.ts)
     + [trimEnd](./overloads/String/TrimEnd.d.ts)
     + [trimStart](./overloads/String/TrimStart.d.ts)
