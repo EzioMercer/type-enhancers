@@ -80,11 +80,11 @@ import "type-enhancers/overloads/String/Split";
 + [IsPrimitive](./utils/IsPrimitive.d.ts)
 + [IsString](./utils/IsString.d.ts)
 + [IsStringLikeNumber](./utils/IsStringLikeNumber.d.ts)
-+ [IsSymbol](./utils/IsSymbol.d.ts)';
-+ [IsTrue](./utils/IsTrue.d.ts)';
-+ [IsTruthy](./utils/IsTruthy.d.ts)';
-+ [IsUndefined](./utils/IsUndefined.d.ts)';
-+ [IsZero](./utils/IsZero.d.ts)';
++ [IsSymbol](./utils/IsSymbol.d.ts);
++ [IsTrue](./utils/IsTrue.d.ts);
++ [IsTruthy](./utils/IsTruthy.d.ts);
++ [IsUndefined](./utils/IsUndefined.d.ts);
++ [IsZero](./utils/IsZero.d.ts);
 + [Nilable](./utils/Nilable.d.ts)
 + [Not](./utils/Not.d.ts)
 + [Nullable](./utils/Nullable.d.ts)
