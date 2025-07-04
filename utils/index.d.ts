@@ -22,6 +22,7 @@ export type { Nilable } from './Nilable';
 export type { Not } from './Not';
 export type { Nullable } from './Nullable';
 export type { Nullish } from './Nullish';
+export type { NumberToString } from './NumberToString';
 export type { Primitive } from './Primitive';
 export type { SplitByString } from './SplitByString';
 export type { StrictOmit } from './StrictOmit';

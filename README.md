@@ -89,6 +89,7 @@ import "type-enhancers/overloads/String/Split";
 + [Not](./utils/Not.d.ts)
 + [Nullable](./utils/Nullable.d.ts)
 + [Nullish](./utils/Nullish.d.ts)
++ [NumberToString](./utils/NumberToString.d.ts)
 + [Primitive](./utils/Primitive.d.ts)
 + [SplitByString](./utils/SplitByString.d.ts)
 + [StrictOmit](./utils/StrictOmit.d.ts)
