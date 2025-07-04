@@ -1,5 +1,4 @@
 import { expectTypeOf } from 'vitest';
-import type { BigIntToNumber } from '../../../utils/BigIntToNumber';
 
 const TEST_1 = Number(255);
 expectTypeOf(TEST_1).toEqualTypeOf<255>();

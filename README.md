@@ -67,12 +67,31 @@ import "type-enhancers/overloads/String/Split";
 ## Available utils
 
 + [BigIntToNumber](./utils/BigIntToNumber.d.ts)
-+ [If](utils/If.d.ts)
-+ [IfElse](utils/IfElse.d.ts)
++ [If](./utils/If.d.ts)
++ [IfElse](./utils/IfElse.d.ts)
++ [IsBigInt](./utils/IsBigInt.d.ts)
++ [IsBoolean](./utils/IsBoolean.d.ts)
++ [IsEmptyString](./utils/IsEmptyString.d.ts)
++ [IsExtends](./utils/IsExtends.d.ts)
++ [IsFalse](./utils/IsFalse.d.ts)
++ [IsFalsy](./utils/IsFalsy.d.ts)
++ [IsNull](./utils/IsNull.d.ts)
++ [IsNumber](./utils/IsNumber.d.ts)
++ [IsPrimitive](./utils/IsPrimitive.d.ts)
++ [IsString](./utils/IsString.d.ts)
 + [IsStringLikeNumber](./utils/IsStringLikeNumber.d.ts)
++ [IsSymbol](./utils/IsSymbol.d.ts)';
++ [IsTrue](./utils/IsTrue.d.ts)';
++ [IsTruthy](./utils/IsTruthy.d.ts)';
++ [IsUndefined](./utils/IsUndefined.d.ts)';
++ [IsZero](./utils/IsZero.d.ts)';
 + [Nilable](./utils/Nilable.d.ts)
++ [Not](./utils/Not.d.ts)
 + [Nullable](./utils/Nullable.d.ts)
++ [Nullish](./utils/Nullish.d.ts)
++ [Primitive](./utils/Primitive.d.ts)
 + [SplitByString](./utils/SplitByString.d.ts)
++ [StrictOmit](./utils/StrictOmit.d.ts)
 + [StringToNumber](./utils/StringToNumber.d.ts)
 + [Trim](./utils/Trim.d.ts)
 + [TrimEnd](./utils/TrimEnd.d.ts)

@@ -1,1 +1,3 @@
-export type IsStringLikeNumber<T extends string> = T extends `${number}` ? true : false;
+import type { IsExtends } from './IsExtends';
+
+export type IsStringLikeNumber<T extends string> = IsExtends<T, `${number}`>;
