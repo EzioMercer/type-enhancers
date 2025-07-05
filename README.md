@@ -80,7 +80,7 @@ import "type-enhancers/overloads/String/Split";
 + [IsPrimitive](./utils/IsPrimitive.d.ts)
 + [IsString](./utils/IsString.d.ts)
 + [IsStringLikeNumber](./utils/IsStringLikeNumber.d.ts)
-+ [IsSymbol](./utils/IsSymbol.d.ts);
++ [IsSymbol](./utils/IsSymbol.d.ts)
 + [IsTrue](./utils/IsTrue.d.ts)
 + [IsTruthy](./utils/IsTruthy.d.ts)
 + [IsUndefined](./utils/IsUndefined.d.ts)
