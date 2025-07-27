@@ -17,7 +17,7 @@ declare global {
     interface NumberConstructor {
         new<Value extends string>(value: Value): Omit<Number, OverrideMethods> & {
             valueOf(): StringToNumber<Value>;
-            toString(): IfElse<IsStringLikeNumber<Value>, NumberToString<StringToNumber<Value>>, 'NaN'>;
+            toString(): IfElse<IsStringLikeNumber<Value>, Value, 'NaN'>;
         };
     }
 
