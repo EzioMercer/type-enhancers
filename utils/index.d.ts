@@ -1,6 +1,8 @@
 export type { BigIntToNumber } from './BigIntToNumber';
+export type { Falsy } from './Falsy';
 export type { If } from './If';
 export type { IfElse } from './IfElse';
+export type { IsAny } from './IsAny';
 export type { IsBigInt } from './IsBigInt';
 export type { IsBoolean } from './IsBoolean';
 export type { IsEmptyString } from './IsEmptyString';
@@ -32,3 +34,4 @@ export type { TrimEnd } from './TrimEnd';
 export type { TrimStart } from './TrimStart';
 export type { Undefinable } from './Undefinable';
 export type { WhiteSpace } from './WhiteSpace';
+export type { Zero } from './Zero';

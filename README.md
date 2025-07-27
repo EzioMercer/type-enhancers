@@ -67,8 +67,10 @@ import "type-enhancers/overloads/String/Split";
 ## Available utils
 
 + [BigIntToNumber](./utils/BigIntToNumber.d.ts)
++ [Falsy](./utils/Falsy.d.ts)
 + [If](./utils/If.d.ts)
 + [IfElse](./utils/IfElse.d.ts)
++ [IsAny](./utils/IsAny.d.ts)
 + [IsBigInt](./utils/IsBigInt.d.ts)
 + [IsBoolean](./utils/IsBoolean.d.ts)
 + [IsEmptyString](./utils/IsEmptyString.d.ts)
@@ -99,3 +101,4 @@ import "type-enhancers/overloads/String/Split";
 + [TrimStart](./utils/TrimStart.d.ts)
 + [Undefinable](./utils/Undefinable.d.ts)
 + [WhiteSpace](./utils/WhiteSpace.d.ts)
++ [Zero](./utils/Zero.d.ts)
