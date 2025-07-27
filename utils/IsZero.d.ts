@@ -1,4 +1,4 @@
 import type { IsExtends } from './IsExtends';
-import type { NumberToString } from './NumberToString';
+import type { Zero } from './Zero';
 
-export type IsZero<T extends number> = IsExtends<NumberToString<T>, '0'>;
+export type IsZero<T extends number | bigint> = IsExtends<T, Zero>;
